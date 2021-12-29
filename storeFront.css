@@ -1,0 +1,178 @@
+body {
+    font-size: 70%;
+    font-family: Cambria,'Times New Roman', serif;
+    background: gray url(https://vetsource.com/wp-content/uploads/2019/01/CatAndDogSleeping.png) fixed top center;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: blue;
+    font-size: 3.0em;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0px;
+}
+
+h2 {
+    color: darkgreen;
+    font-size: 1.6em;
+    margin: .5em 0 0.35em 0;
+    padding: 0px;
+}
+
+p {
+    font-size: 1.4em;
+    line-height: 1.6em;
+    color: black;
+    margin: 0 0.5em 0.75em 0; 
+}
+
+ul {
+    font-size: 1em;
+    margin: 0 0 0 1.0em;
+    padding: 0 0 0 1.0em;
+}
+
+ul li {
+    margin: 0;
+    padding: 0 0 0 0.2em
+}
+
+a, a:visited {
+    color:dodgerblue;
+}
+
+a:hover {
+    color:lightslategrey;
+}
+
+hr {
+    padding: 0;
+    margin: 1.5em 1.5em 0.75em 0.5em;
+}
+
+div.clear {
+    clear:both;
+    font-size:1%;
+}
+
+header {
+    padding: 2.5em 0 0.5em;
+    margin: 0 0 2.0em;
+    background:burlywood center 0px;
+}
+
+header h1 {
+    font-family: Georgia, Times, serif;
+    color: black;
+    font-size: 7.5em;
+    letter-spacing: -0.025em;
+    margin: 0;
+}
+
+header h2 {
+    font-weight: 250;
+    font-size: 3.5em;
+    color:midnightblue;
+    margin: -0.4em 0 0 1.0em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+nav {
+    color:darkgrey;
+    font-size: 1.8em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 1.0em 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0;
+}
+
+nav li a, nav li a:visited {
+    text-decoration: none;
+    color:darkred;
+    padding: 0.4em 0.6em;
+}
+
+nav li a:hover {
+    color:darkseagreen;
+    background-color: lightslategray;
+}
+
+section#sidebar {
+    width: 235px;
+    float: right;
+    position: relative;
+    display: block;
+    background-color: lightpink;
+    margin: 1.5em 0.4em 3.0em 1.6em;
+    padding: 1.6em 0.5em 2.0em 1.6em;
+    border-left:darkslateblue solid 5px;
+}
+
+section #main {
+    margin: 0 0 2.0em;
+    padding: 1.6em 0 2.0em 1.5em;
+    display:inline-block;
+    border-radius: 2em;
+}
+
+section div.panel {
+    float: left;
+    position: relative;
+    width: 300px;
+    height:400px;
+    margin: 0 0.5em 2.0em 0.5em;
+    padding: 1.0em;
+    background-color:lightseagreen;
+    border:black solid 1px;
+    border-radius: 0.6em;
+}
+
+section div.panel img.furryFriends {
+    width: 50%
+}
+
+footer {
+    background-color:slateblue;
+    height: 30px;
+    font-size: 1.1em;
+    color:white;
+    text-align: bottom;
+    padding: 1.5em 2.0em;
+}
+
+footer ul#menuFooter {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.7em;
+    padding: 0;
+}
+footer ul li {
+    display: inline-block;
+    padding: 0 0.7 0 0;
+    margin: 0;
+}
+
+footer ul li::before {
+    content: "|";
+    padding-right: 0.7em;
+}
+
+footer a, footer a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: black;
+    text-decoration: underline;
+}
